@@ -14,7 +14,8 @@ install.packages(c("devtools",
                    "tidyverse", 
                    "ggthemes", 
                    "palmerpenguins",
-                   "gt"))
+                   "gt",
+                   "here"))
 
 ```
 
@@ -25,7 +26,7 @@ library(tidyverse)
 library(ggthemes)
 library(palmerpenguins)
 library(gt)
-
+library(here)
 ```
 
 
