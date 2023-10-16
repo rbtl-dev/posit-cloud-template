@@ -1,0 +1,31 @@
+---
+editor: source
+---
+
+# Installation
+
+This script is used as a default template on Posit Cloud to install the required packages needed to run the course.
+
+```{r}
+
+install.packages(c("devtools", 
+                   "usethis", 
+                   "knitr", 
+                   "tidyverse", 
+                   "ggthemes", 
+                   "palmerpenguins",
+                   "gt"))
+
+```
+
+```{r}
+library(devtools)
+library(usethis)
+library(tidyverse)
+library(ggthemes)
+library(palmerpenguins)
+library(gt)
+
+```
+
+
