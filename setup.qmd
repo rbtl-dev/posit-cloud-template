@@ -15,8 +15,14 @@ install.packages(c("devtools",
                    "ggthemes", 
                    "palmerpenguins",
                    "gt",
-                   "here"))
-
+                   "here",
+                   "gapminder",
+                   "ggthemes",
+                   "ggridges",
+                   "sf",
+                   "rnaturalearth",
+                   "readxl",
+                   "janitor"))
 ```
 
 ```{r}
@@ -27,6 +33,14 @@ library(ggthemes)
 library(palmerpenguins)
 library(gt)
 library(here)
+library(gapminder)
+library(ggthemes)
+library(ggridges)
+library(sf)
+library(rnaturalearth)
+library(readxl)
+library(readr)
+library(janitor)
 ```
 
 
