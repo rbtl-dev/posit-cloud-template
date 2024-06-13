@@ -22,7 +22,8 @@ install.packages(c("devtools",
                    "sf",
                    "rnaturalearth",
                    "readxl",
-                   "janitor"))
+                   "janitor",
+                   "googlesheets4"))
 ```
 
 ```{r}
@@ -41,6 +42,7 @@ library(rnaturalearth)
 library(readxl)
 library(readr)
 library(janitor)
+library(googlesheets4)
 ```
 
 
